@@ -10,7 +10,7 @@
   
   .arrow {
     width: 13px;
-    position: absolute;
+    position: fixed;
     padding-left: 80px;
     margin-top: 18px;
   }
