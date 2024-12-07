@@ -8,7 +8,7 @@ const Home = () => {
   const [selectedRoute, setSelectedRoute] = useState('#61 Elmwood');
   const [currentTime, setCurrentTime] = useState('');
   const [currentDate, setCurrentDate] = useState('');
-  const [timeRemaining, setTimeRemaining] = useState(16);
+  const [timeRemaining, setTimeRemaining] = useState(15);
 
   useEffect(() => {
     const updateDateTime = () => {
