@@ -8,7 +8,7 @@ const Home = () => {
   const [selectedRoute, setSelectedRoute] = useState('#61 Elmwood');
   const [currentTime, setCurrentTime] = useState('');
   const [currentDate, setCurrentDate] = useState('');
-  const [timeRemaining, setTimeRemaining] = useState(16);
+  const [timeRemaining, setTimeRemaining] = useState(15);
 
   useEffect(() => {
     const updateDateTime = () => {
@@ -67,7 +67,7 @@ const Home = () => {
 
   return (
     <div style={{display: 'flex'}}>
-      <img src="/hotspotmobile/arrow.png" alt="Arrow" className={styles.arrow} />
+      <img src="/arrow.png" alt="Arrow" className={styles.arrow} />
 
       <div className={styles.menuButton} onClick={toggleBusSelection}>
         &#9776;
@@ -115,16 +115,16 @@ const Home = () => {
             <h1></h1>
             <h2 className={styles.busRoute}>{selectedRoute}</h2>
             <div className={styles.busContainer}>
-              <img src="/hotspotmobile/bus.png" alt="Bus" className={styles.bus} />
-              <img src="/hotspotmobile/background.png" alt="Background" className={styles.background} />
-              <img src="/hotspotmobile/button.png" alt="Button" className={styles.buttonImage} />
+              <img src="/bus.png" alt="Bus" className={styles.bus} />
+              <img src="/background.png" alt="Background" className={styles.background} />
+              <img src="/button.png" alt="Button" className={styles.buttonImage} />
             </div>
             <h1 className={styles.time}>{`This pass expires after ${timeRemaining} minutes`}</h1>
             <h2 className={styles.userId}>User ID 209217</h2>
           </div>
         </div>
       )}
-      <img className={styles.bottomBar} src="/hotspotmobile/bottombar.png" alt="Bottom Bar" />
+      <img className={styles.bottomBar} src="/bottombar.png" alt="Bottom Bar" />
     </div>
   );
 };
