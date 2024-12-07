@@ -1,0 +1,18 @@
+/* styles/globals.css */
+@font-face {
+  font-family: 'FiraSansLight';
+  src: url('/fonts/FiraSans-Light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'FiraSansMedium';
+  src: url('/fonts/FiraSans-Medium.otf') format('opentype');
+}
+
+body {
+  font-family: 'FiraSansLight', sans-serif;
+}
+
+h1 {
+  font-family: 'FiraSansMedium', sans-serif;
+}

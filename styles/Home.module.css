@@ -1,0 +1,135 @@
+.menuButton {
+    font-size: 36px;
+    color: #414143;
+    text-align: left !important;
+    position: fixed;
+    padding-left: 18px;
+    margin-top: 6px;
+    cursor: pointer;
+  }
+  
+  .arrow {
+    width: 13px;
+    position: absolute;
+    padding-left: 80px;
+    margin-top: 18px;
+  }
+  
+  .busSelect {
+    width: 100%;
+    display: block;
+    margin-top: 70px;
+    margin-bottom: 120px;
+    font-size: 25px;
+    color: black;
+    font-family: 'FiraSansLight', sans-serif;
+    font-weight: 100;
+    text-align: center;
+  }
+
+  .busSelect ul {
+    padding: 0;
+    list-style: none;
+  }
+
+  .busSelect li {
+    padding: 15px
+  }
+
+  .busSelect li:hover {
+    background-color: rgba(65, 65, 67, 0.26);
+    cursor: pointer;
+  }
+
+  .buttonImage {
+    width: 145px;
+    margin-top: 6px;
+  }
+
+  .bus {
+    margin-top: 21%;
+  }
+
+  .busRoute {
+    font-size: 21px;
+    margin-top: -10px;
+    overflow: clip;
+    margin-bottom: 50px;
+    font-family: 'FiraSansLight', sans-serif;
+    font-weight: normal;
+  }
+
+  .background {
+    width: 100%;
+    height: 59%;
+  }
+  
+  .purpleBox {
+    margin-top: 48px;
+    background-color: #a63f65;
+    width: 90%;
+    height: 750px;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    color: white;
+  }
+  
+  .pass {
+    font-size: 16px;
+    padding-top: 30px;
+  }
+  
+  .busContainer {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .time {
+    font-size: 21px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 30px
+  }
+  
+  .bus {
+    width: 57%;
+    position: absolute;
+    animation: example 6s linear infinite;
+  }
+
+  #pass{
+    font-size: 16px;
+  }
+
+  #demo{
+    font-size: 22px;
+    font-weight: black;
+  }
+
+  #txt{
+    font-size: 21px;
+  }
+
+  .userId{
+    font-size: 20px;
+    margin-bottom: 80px;
+    font-family: 'FiraSansLight', sans-serif;
+    font-weight: normal;
+  }
+  
+  @keyframes example {
+    0% {
+      left: -350px;
+    }
+    100% {
+      left: 600px;
+    }
+  }
+  
+  .bottomBar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
